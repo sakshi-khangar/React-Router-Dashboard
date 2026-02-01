@@ -50,7 +50,7 @@ Nested routing is implemented using the `<Outlet />` component.
 
 ## Learning Outcome
 - This project helped in understanding:
- -- How routing works in React
- -- How nested routes are implemented
- --How to structure a React project efficiently
- --Building clean and user-friendly UI
+ - How routing works in React
+ - How nested routes are implemented
+ -How to structure a React project efficiently
+ -Building clean and user-friendly UI
