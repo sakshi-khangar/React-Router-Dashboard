@@ -12,9 +12,8 @@ const About = () => {
           <Link to="Firmware">Firmware</Link>
         </div>
         <div style={{ marginTop: "20px" }}>
-  <Outlet />
-</div>
-
+           <Outlet />
+        </div>
       </div>
     </div>
   )
