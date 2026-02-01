@@ -1,16 +1,56 @@
-# React + Vite
+# React Router Dashboard
+## Project Overview
+React Router Configuration Dashboard is a single-page application built using **React** and **React Router DOM**.  
+The project simulates a router configuration panel where users can navigate between different router settings such as Network, Wi-Fi, Security, and About sections.
+This project mainly focuses on implementing **client-side routing** and **nested routing** in React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Single Page Application (SPA)
+- React Router DOM for navigation
+- Nested Routing using `<Outlet />`
+- Reusable React Components
+- Clean and responsive UI
+- Easy navigation with Navbar
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- React Router DOM
+- JavaScript (ES6)
+- CSS3
+- Vite (Development Tool)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Routing Details
+The application uses **React Router DOM** for page navigation.
 
-## React Compiler
+### Main Routes:
+- `/home` → Home Page
+- `/network` → Network Settings
+- `/wifi` → Wi-Fi Settings
+- `/security` → Security Settings
+- `/about` → About Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Nested Routes:
+- `/about/hardware` → Hardware Details
+- `/about/firmware` → Firmware Details
+Nested routing is implemented using the `<Outlet />` component.
 
-## Expanding the ESLint configuration
+## Concepts Covered
+- React Functional Components
+- React Router `<Routes>` and `<Route>`
+- Nested Routing
+- `<Link>` for navigation
+- Component-based architecture
+- Basic UI styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## UI Description
+- Navbar for easy navigation
+- Card-based layout for better readability
+- Gradient background for modern look
+- Hover effects on navigation links
+
+## Learning Outcome
+- This project helped in understanding:
+ -- How routing works in React
+ -- How nested routes are implemented
+ --How to structure a React project efficiently
+ --Building clean and user-friendly UI
